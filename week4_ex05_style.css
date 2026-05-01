@@ -1,0 +1,63 @@
+/* General Page Styling */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding-top: 80px; /* Space so navbar doesn't cover content */
+  line-height: 1.6;
+}
+
+/* Navigation Bar Styling */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center; /* Evenly spaces the group */
+  z-index: 1000;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px; /* Space between links */
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Content Container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Blog Post Styling */
+.post {
+  margin-bottom: 20px;
+}
+
+/* Headings */
+h1 {
+  color: #2c3e50;
+  font-size: 24px;
+}
+
+h2 {
+  color: #2c3e50;
+  font-size: 20px;
+}
+
+/* Links within posts */
+p a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
